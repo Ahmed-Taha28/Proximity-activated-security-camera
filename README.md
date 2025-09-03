@@ -106,7 +106,8 @@ After connecting the computer to the FTDI connector via USB, we choose the corre
 
 We hit the RST button on the ESP32, and it will start uploading, then we will see this message when it finishes
 
-![image]((https://github.com/photo.jpg](https://github.com/Ahmed-Taha28/Proximity-activated-security-camera/blob/main/images/start_upload.png?raw=true)))
+![image](<img width="623" height="151" alt="image" src="https://github.com/user-attachments/assets/18962bda-3ace-4ab5-aa5f-62ffb6ffc546" />
+)
 
 # Connecting to the stream
 
