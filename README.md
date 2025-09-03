@@ -103,6 +103,8 @@ We will be using the Arduino IDE to upload our code
 After connecting the computer to the FTDI connector via USB, we choose the corresponding COM port on the Arduino IDE and hit upload, then we will see the following message:
 
 ![image](https://github.com/Ahmed-Taha28/Proximity-activated-security-camera/blob/main/images/upload.png)
+
+
 We hit the RST button on the ESP32, and it will start uploading, then we will see this message when it finishes
 
 [<img width="623" height="151" alt="image" src="https://github.com/user-attachments/assets/18962bda-3ace-4ab5-aa5f-62ffb6ffc546" />](https://github.com/Ahmed-Taha28/Proximity-activated-security-camera/blob/main/images/start_upload.png)
