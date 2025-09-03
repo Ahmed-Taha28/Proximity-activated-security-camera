@@ -25,7 +25,7 @@ The ESP32-CAM will be streaming over Wi-Fi, it will also be connected to the Ult
 
 ## Declaring the code constants
 
-```cpp
+```c
 // Wi-Fi credentials
 const char* ssid = "WIFI_NETWORK_NAME";
 const char* password = "WIFI_NETWORK_PASSWORD";
@@ -43,7 +43,7 @@ const int echoPin = 13;
 const float SOUND_SPEED = 0.034;
 ```
 ## Connecting to Wi-Fi
-```cpp
+```c
 WiFi.begin(ssid, password);
 
 while (WiFi.status() != WL_CONNECTED) {
@@ -54,7 +54,7 @@ Serial.println("");
 Serial.println("WiFi connected");
 ```
 ## Calculating the Distance using the Ultrasonic
-```cpp
+```c
 digitalWrite(trigPin, LOW);
 delayMicroseconds(2);
 digitalWrite(trigPin, HIGH);
@@ -65,7 +65,7 @@ duration = pulseIn(echoPin, HIGH);
 distanceCm = duration * SOUND_SPEED/2;
 ```
 ## Taking the picture
-```cpp
+```c
 if(distanceCm < 50){
   char name[50];
   n = sprintf(name, "Pic%d.jpg", N_FILE);
@@ -81,7 +81,7 @@ if(distanceCm < 50){
   Serial.printf("Picture file name: %s\n", name);
 ```
 ## Sending the image via the FTP-SERVER
-```cpp
+```c
 ftp.OpenConnection();
 Serial.println("---FTP Connected---");
 ftp.InitFile("Type I");
