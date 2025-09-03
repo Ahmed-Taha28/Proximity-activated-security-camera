@@ -19,7 +19,7 @@ The ESP32-CAM will be streaming over Wi-Fi, it will also be connected to the Ult
 
 # Circuit Diagram
 
-![image](https://github.com/photo.jpg)
+![image](https://github.com/Ahmed-Taha28/Proximity-activated-security-camera/blob/main/images/circuit_diagram.png?raw=true)
 
 # Code
 
