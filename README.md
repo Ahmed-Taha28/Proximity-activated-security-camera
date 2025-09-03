@@ -111,6 +111,6 @@ We hit the RST button on the ESP32, and it will start uploading, then we will se
 
 After disconnecting pins IO0 and GND, we will see the following on the serial monitor inside the Arduino IDE
 
-Using a web-browser we connect to the ip shown, and we will see a live-feed from the ESP32-CAM.
-
 ![image](https://github.com/Ahmed-Taha28/Proximity-activated-security-camera/blob/main/images/Connecting%20to%20the%20stream.png)
+
+Using a web-browser we connect to the ip shown, and we will see a live-feed from the ESP32-CAM.
