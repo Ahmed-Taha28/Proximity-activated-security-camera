@@ -65,7 +65,7 @@ duration = pulseIn(echoPin, HIGH);
 distanceCm = duration * SOUND_SPEED/2;
 ```
 ## Taking the picture
-```c
+```cpp
 if(distanceCm < 50){
   char name[50];
   n = sprintf(name, "Pic%d.jpg", N_FILE);
